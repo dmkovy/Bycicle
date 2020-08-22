@@ -57,17 +57,12 @@
 //====================================================================================================
 .slick-slider {
 	position: relative;
-	.slick-track,
-	.slick-list {
-	}
 	.slick-list {
 		overflow: hidden;
 	}
 	.slick-track {
 		@include flexbox();
 		align-items: flex-start;
-	}
-	.slick-slide {
 	}
 	.slick-dots {
 		padding: 100px 0px 0px 0px;
